@@ -1,0 +1,16 @@
+{
+  "name": "gameserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon server.js"
+  },
+  "author": "sajad amiri",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.15",
+    "shortid": "^2.2.16",
+    "ws": "^8.3.0"
+  }
+}
