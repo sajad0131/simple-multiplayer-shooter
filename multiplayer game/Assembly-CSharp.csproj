@@ -88,14 +88,14 @@
     <Compile Include="Assets\JMO Assets\WarFX\Scripts\WFX_LightFlicker.cs" />
     <Compile Include="Assets\Scripts\Manager\MenuManager.cs" />
     <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
+    <Compile Include="Assets\Scripts\Network\NetworkShoot.cs" />
     <Compile Include="Assets\Joystick Pack\FixedButton.cs" />
+    <Compile Include="Assets\Scripts\General\Destroyer.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
     <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\CFX_Demo_Translate.cs" />
     <Compile Include="Assets\Scripts\Network\NetworkRotation.cs" />
     <Compile Include="Assets\Scripts\User Interface\Settings.cs" />
     <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\WFX_Demo_New.cs" />
-    <Compile Include="Assets\Scripts\General\Destroyer.cs" />
-    <Compile Include="Assets\Scripts\Network\NetworkShoot.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

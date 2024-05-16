@@ -145,8 +145,8 @@ namespace Project.Player
 
 
                 StartCoroutine("Flicker");
-                
 
+                CallSendSAhoot(new Vector3(-10000, -10000, -10000));
 
 
                 if (Physics.Raycast(GunOrigin.position, Camera.transform.forward, out hit, maxDistance))
@@ -162,10 +162,7 @@ namespace Project.Player
                     }
 
                 }
-                else
-                {
-                    CallSendSAhoot(new Vector3(-10000, -10000, -10000));
-                }
+                
 
             }
             else
