@@ -138,8 +138,10 @@ namespace Project.Player
             {
                 nextTimeToFire = Time.time + (1f / fireRate);
                 muzzle.Play(true);
-                gunAudioSource.clip = shootSound;
-                gunAudioSource.Play();
+                AudioSource shootSource = Instantiate(gunAudioSource,GunOrigin,GunOrigin);
+                shootSource.clip = shootSound;
+                shootSource.Play();
+                
                 curentBullets--;
                 currentBulletText.text = curentBullets.ToString();
 

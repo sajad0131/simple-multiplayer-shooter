@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - Destroyer
     - FixedButton
     - FixedTouchField
     - FloatingJoystick
@@ -71,6 +72,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -125,6 +130,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 7262}
     - Class: 114
       Script: {instanceID: 7752}
+    - Class: 114
+      Script: {instanceID: 35846}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -177,6 +184,10 @@ ScriptsOnlyBuild:
     - Class: 65
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
@@ -244,6 +255,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 7262}
     - Class: 114
       Script: {instanceID: 7752}
+    - Class: 114
+      Script: {instanceID: 35846}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -527,7 +540,7 @@ ScriptsOnlyBuild:
     className: UnityOnDropdownValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 57c1b2e3657b80a1a4cc83b6d1afb501
+      Hash: 89c57cbf4eefae621c87356433bae78f
     assemblyName: Assembly-CSharp.dll
     namespaceName: Project.Player
     className: PlayerManager
@@ -1257,8 +1270,15 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 1461287944925c5e9f6aac9a5441e00a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Destroyer
   platform: 19
   scenePathNames:
   - Assets/Scenes/menu.unity
   - Assets/Scenes/map1.unity
-  playerPath: E:/test/multiplayer game.exe
+  playerPath: E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer
+    game.exe
