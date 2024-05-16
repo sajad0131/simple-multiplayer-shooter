@@ -51,7 +51,10 @@ namespace Project.Player
         public string hitID;
         [SerializeField]
         private float timeOfMuzzleLight = 0.05f;
-
+        [SerializeField]
+        private AudioClip shootSound;
+        [SerializeField]
+        private AudioSource gunAudioSource;
         //  [ Health Variables ]
         [SerializeField]
         public int gunDamageAmount { get; private set; } = 10;
@@ -135,6 +138,8 @@ namespace Project.Player
             {
                 nextTimeToFire = Time.time + (1f / fireRate);
                 muzzle.Play(true);
+                gunAudioSource.clip = shootSound;
+                gunAudioSource.Play();
                 curentBullets--;
                 currentBulletText.text = curentBullets.ToString();
 
