@@ -162,6 +162,10 @@ namespace Project.Player
                     }
 
                 }
+                else
+                {
+                    CallSendSAhoot(new Vector3(-10000, -10000, -10000));
+                }
 
             }
             else

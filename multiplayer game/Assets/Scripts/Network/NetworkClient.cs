@@ -268,7 +268,7 @@ namespace Project.Networking
                     });
                     return data;
                 });
-                ev.on("updateGunRotation", e.Data, (data) =>
+                ev.on("shoot", e.Data, (data) =>
                 {
                     _actions.Enqueue(() =>
                     {
