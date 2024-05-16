@@ -268,6 +268,27 @@ namespace Project.Networking
                     });
                     return data;
                 });
+                ev.on("updateGunRotation", e.Data, (data) =>
+                {
+                    _actions.Enqueue(() =>
+                    {
+                        string id = data["id"].ToString();
+                        float x = (float)data["hitPoint"]["x"];
+                        float y = (float)data["hitPoint"]["y"];
+                        float z = (float)data["hitPoint"]["z"];
+                        Vector3 point = new Vector3(x,y,z);
+                        NetworkIdentity ni = serverObjects[id];
+                        ni.gameObject.GetComponent<PlayerManager>().muzzle.Play();
+                        var audioSource = GetComponent<PlayerManager>().gunAudioSource;
+                        AudioSource shootSource = Instantiate(audioSource, ni.GetComponent<PlayerManager>().GunOrigin, ni.GetComponent<PlayerManager>().GunOrigin);
+                        
+                        shootSource.Play();
+
+
+
+                    });
+                    return data;
+                });
 
                 ev.on("updateHealth", e.Data, (data) =>
                 {

@@ -35,17 +35,14 @@ namespace Project.Player
         private int curentBullets;
         [SerializeField]
         private float fireRate;
-        //[SerializeField]
-        //private TextMeshProUGUI currentBulletText;
-        //[SerializeField]
-        //private TextMeshProUGUI totalBulletText;
+
         [SerializeField]
         private float maxDistance;
         public RaycastHit hit;
-        [SerializeField]
-        private Transform GunOrigin;
-        [SerializeField]
-        private ParticleSystem muzzle;
+
+        public Transform GunOrigin { get; private set; }
+        
+        public ParticleSystem muzzle;
         [SerializeField]
         private GameObject muzzleLight;
         public string hitID;
@@ -53,8 +50,8 @@ namespace Project.Player
         private float timeOfMuzzleLight = 0.05f;
         [SerializeField]
         private AudioClip shootSound;
-        [SerializeField]
-        private AudioSource gunAudioSource;
+        
+        public AudioSource gunAudioSource;
         //  [ Health Variables ]
         [SerializeField]
         public int gunDamageAmount { get; private set; } = 10;
@@ -89,7 +86,7 @@ namespace Project.Player
             canShoot = true;
             ni = gameObject.GetComponent<NetworkIdentity>();
             rb = GetComponent<Rigidbody>();
-
+            
             currentBulletText = GameObject.FindGameObjectWithTag("CurrentBulletText").GetComponent<TextMeshProUGUI>();
             totalBulletText = GameObject.FindGameObjectWithTag("TotalBulletText").GetComponent<TextMeshProUGUI>();
             totalBulletText.text = totalBullets.ToString();
@@ -155,6 +152,7 @@ namespace Project.Player
                 if (Physics.Raycast(GunOrigin.position, Camera.transform.forward, out hit, maxDistance))
                 {
                     Debug.DrawRay(GunOrigin.position, Camera.transform.forward);
+                    CallSendSAhoot(hit.point);
                     if (hit.transform.tag == "Player")
                     {
                         hitID = hit.transform.GetComponent<NetworkIdentity>().GetID();
@@ -234,6 +232,11 @@ namespace Project.Player
             ToggleOnOff = false;
             yield return new WaitForSeconds(t);
             isToggling = false;
+        }
+
+        public void CallSendSAhoot(Vector3 hitPoint)
+        {
+            gameObject.GetComponent<NetworkShoot>().SendShoot(hitPoint);
         }
 
         void Reload()
