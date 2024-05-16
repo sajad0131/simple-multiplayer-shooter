@@ -24,8 +24,8 @@ namespace Project.Player
         private bool ToggleOnOff;
         [SerializeField]
         private float walkMoveCameraTime = 1f;
-        [SerializeField]
-        private Transform Camera;
+
+        public Transform Camera;
 
 
         // [ Shooting variables ]
@@ -35,9 +35,9 @@ namespace Project.Player
         private int curentBullets;
         [SerializeField]
         private float fireRate;
-
-        [SerializeField]
-        private float maxDistance;
+        public GameObject hitEffect;
+        
+        public float maxDistance{get; private set;}
         public RaycastHit hit;
 
         public Transform GunOrigin { get; private set; }
@@ -142,17 +142,18 @@ namespace Project.Player
                 curentBullets--;
                 currentBulletText.text = curentBullets.ToString();
 
-
+                Vector3 hp = new Vector3();
 
                 StartCoroutine("Flicker");
 
-                CallSendSAhoot(new Vector3(-10000, -10000, -10000));
+                
 
 
                 if (Physics.Raycast(GunOrigin.position, Camera.transform.forward, out hit, maxDistance))
                 {
                     Debug.DrawRay(GunOrigin.position, Camera.transform.forward);
-                    CallSendSAhoot(hit.point);
+                    hp = hit.point;
+                    
                     if (hit.transform.tag == "Player")
                     {
                         hitID = hit.transform.GetComponent<NetworkIdentity>().GetID();
@@ -162,8 +163,8 @@ namespace Project.Player
                     }
 
                 }
-                
 
+                CallSendShoot();
             }
             else
             {
@@ -235,9 +236,9 @@ namespace Project.Player
             isToggling = false;
         }
 
-        public void CallSendSAhoot(Vector3 hitPoint)
+        public void CallSendShoot()
         {
-            gameObject.GetComponent<NetworkShoot>().SendShoot(hitPoint);
+            gameObject.GetComponent<NetworkShoot>().SendShoot();
         }
 
         void Reload()

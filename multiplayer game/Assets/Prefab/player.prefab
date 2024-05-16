@@ -213,11 +213,10 @@ MonoBehaviour:
   reloadButton: 0
   run: 0
   walkMoveCameraTime: 1
-  Camera: {fileID: 4576844247902067935}
   nextTimeToFire: 0.5
   curentBullets: 30
   fireRate: 10
-  maxDistance: 100
+  hitEffect: {fileID: 3632128046343316052, guid: 0224c6138b2fb0944a49dd4a1cd455bf, type: 3}
   muzzle: {fileID: 8954548305003210106}
   muzzleLight: {fileID: 8954548304988175388}
   hitID: 

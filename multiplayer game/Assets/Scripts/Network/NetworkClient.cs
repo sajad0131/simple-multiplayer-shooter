@@ -273,15 +273,21 @@ namespace Project.Networking
                     _actions.Enqueue(() =>
                     {
                         string id = data["id"].ToString();
-                        float x = (float)data["hitPoint"]["x"];
-                        float y = (float)data["hitPoint"]["y"];
-                        float z = (float)data["hitPoint"]["z"];
-                        Vector3 point = new Vector3(x,y,z);
+                        
                         NetworkIdentity ni = serverObjects[id];
                         ni.gameObject.GetComponent<PlayerManager>().muzzle.Play();
                         var audioSource = GetComponent<PlayerManager>().gunAudioSource;
-                        AudioSource shootSource = Instantiate(audioSource, ni.GetComponent<PlayerManager>().GunOrigin, ni.GetComponent<PlayerManager>().GunOrigin);
-                        
+                        var gunOrigin = ni.GetComponent<PlayerManager>().GunOrigin;
+                        AudioSource shootSource = Instantiate(audioSource, gunOrigin, gunOrigin);
+                        RaycastHit hit;
+                        if (Physics.Raycast(gunOrigin.position, ni.GetComponent<PlayerManager>().Camera.forward, out hit, ni.GetComponent<PlayerManager>().maxDistance))
+                        {
+                            if (hit.transform.tag != "Player")
+                            {
+                                Instantiate(ni.gameObject.GetComponent<PlayerManager>().hitEffect,hit.transform);
+                            }
+                        }
+
                         shootSource.Play();
 
 

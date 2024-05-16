@@ -25,12 +25,12 @@ namespace Project.Networking
             
         }
 
-        public void SendShoot(Vector3 hitpoint)
+        public void SendShoot()
         {
             var id = networkIdentity.GetID();
             int[] b = { 1 };
             int[] n = { 999 };
-            var response = dataManager.data(b, "id", id, "hitPoint", dataManager.data(n, "x", hitpoint.x.ToString(), "y", hitpoint.y.ToString(), "z", hitpoint.z.ToString()));
+            var response = dataManager.data(b, "id", id);
             
             ev.send(networkIdentity.GetSocket(), "shoot", response);
         }

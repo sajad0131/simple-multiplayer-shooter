@@ -18,6 +18,7 @@ ScriptsOnlyBuild:
     - Project.Player.PlayerManager
     - Settings
     - TouchHandler
+    - WFX_Demo_DeleteAfterDelay
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -545,7 +546,7 @@ ScriptsOnlyBuild:
     className: UnityOnDropdownValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 5f49cb8c0fd644043c75ba7275c30ec7
+      Hash: d88a8e5f32af27aaf899504601e10545
     assemblyName: Assembly-CSharp.dll
     namespaceName: Project.Player
     className: PlayerManager
