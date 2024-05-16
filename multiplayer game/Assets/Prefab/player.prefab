@@ -223,6 +223,7 @@ MonoBehaviour:
   hitID: 
   timeOfMuzzleLight: 0.05
   shootSound: {fileID: 8300000, guid: 30b99cd4273628644b9328eb292d7113, type: 3}
+  gunAudioSource: {fileID: 2667880421969338935}
   healthChecker: 0
   health: 100
   sensivity: 1.2
