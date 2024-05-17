@@ -15,7 +15,7 @@ namespace Project.Networking
         private GameObject networkManager;
 
 
-        private void Start()
+        private void Awake()
         {
             networkIdentity = GetComponent<NetworkIdentity>();
             networkManager = GameObject.FindGameObjectWithTag("NetworkManager");
@@ -28,8 +28,8 @@ namespace Project.Networking
         public void SendShoot()
         {
             var id = networkIdentity.GetID();
-            int[] b = { 1 };
-            int[] n = { 999 };
+            
+            int[] b = { 999 };
             var response = dataManager.data(b, "id", id);
             
             ev.send(networkIdentity.GetSocket(), "shoot", response);

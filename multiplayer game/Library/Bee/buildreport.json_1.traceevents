@@ -1,382 +1,382 @@
 ﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
 { "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 0, "tid": 1, "ts": 1715893546813890, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1715893546815325, "dur": 21400, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1715893546837053, "dur": 506249, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1715893547343319, "dur": 21492, "ph": "X", "name": "Finish", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1715893550910799, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1715893550911025, "dur": 11236, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1715893550922266, "dur": 250033, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1715893551172301, "dur": 14548, "ph": "X", "name": "Finish", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1715893551187351, "dur": 21, "ph": "X", "name": "", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1715939028832949, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1715939028834372, "dur": 111281, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1715939028945893, "dur": 991887, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1715939029937809, "dur": 20757, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1715939039516531, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1715939039516765, "dur": 21484, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1715939039538254, "dur": 537099, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1715939040075355, "dur": 6949, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1715939040082665, "dur": 43, "ph": "X", "name": "", "args": {} },
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1715893550961348, "dur":895, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1715893550962249, "dur":136, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1715893550962400, "dur":18, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1715893550962419, "dur":729, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1715893550963181, "dur":968, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1715893550964149, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1715893551166458, "dur":334, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1715893551166792, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1715893551166804, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1715893551166806, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1715893551166814, "dur":261, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1715893551167075, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1715893551167092, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1715893551167095, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1715893551167102, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1715893551167105, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1715893551167114, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1715893551167116, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1715893551167122, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1715893551167124, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1715893551167131, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1715893551167133, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1715893551167140, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1715893551167142, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1715893551167148, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1715893551167150, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1715893551167156, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1715893551167158, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1715893551167165, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1715893551167167, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1715893551167174, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1715893551167186, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1715893551167189, "dur":1281, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1715893550963273, "dur":955, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1715893550964228, "dur":4559, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1715893550968798, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":1, "ts":1715893550968882, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1715893550968899, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":1, "ts":1715893550968943, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1715893550968957, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game.exe" }}
-,{ "pid":12345, "tid":1, "ts":1715893550968972, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1715893550969089, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1715893550969110, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1715893550969134, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1715893550969176, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1715893550969191, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1715893550969239, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1715893550969263, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1715893550969279, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1715893550969293, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1715893550969310, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1715893550969331, "dur":318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1715893550969649, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1715893550969662, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":1, "ts":1715893550969675, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1715893550969695, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":1, "ts":1715893550969717, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1715893550969727, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1715893550969790, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1715893550970827, "dur":8130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1715893550978973, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1715893550979067, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1715893550979081, "dur":187370, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1715893550964013, "dur":367, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1715893550964380, "dur":4409, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1715893550968797, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1715893550968873, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1715893550968896, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1715893550968961, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1715893550969035, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1715893550969078, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1715893550969088, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1715893550969113, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1715893550969132, "dur":143674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":2, "ts":1715893551112806, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1715893551112829, "dur":53625, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1715893550963618, "dur":673, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1715893550964291, "dur":4516, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1715893550968811, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1715893550968887, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1715893550968913, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":3, "ts":1715893550968971, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1715893550969086, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1715893550969108, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1715893550969126, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1715893550969147, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1715893550969168, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1715893550969228, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1715893550969241, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1715893550969256, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1715893550969282, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1715893550969300, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1715893550969353, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1715893550969585, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1715893550969597, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":3, "ts":1715893550969609, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1715893550969621, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":3, "ts":1715893550969635, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1715893550969646, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":3, "ts":1715893550969658, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1715893550969673, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":3, "ts":1715893550969685, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1715893550969694, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":3, "ts":1715893550969708, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1715893550969718, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":3, "ts":1715893550969787, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1715893550970634, "dur":4066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":3, "ts":1715893550974725, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/resources.assets" }}
-,{ "pid":12345, "tid":3, "ts":1715893550974755, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1715893550974766, "dur":2732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/resources.assets" }}
-,{ "pid":12345, "tid":3, "ts":1715893550977532, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/level0" }}
-,{ "pid":12345, "tid":3, "ts":1715893550977568, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1715893550977582, "dur":1413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/level0" }}
-,{ "pid":12345, "tid":3, "ts":1715893550979013, "dur":187460, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1715893550963834, "dur":535, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1715893550964369, "dur":4436, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1715893550968806, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1715893550968874, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1715893550968912, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":4, "ts":1715893550968973, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1715893550969104, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1715893550969204, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1715893550969241, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1715893550969287, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1715893550969305, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1715893550969320, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1715893550969347, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1715893550969532, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1715893550969562, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1715893550969578, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1715893550969595, "dur":196762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":4, "ts":1715893551166357, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1715893551166385, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":4, "ts":1715893551166386, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1715893550964178, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1715893550964178, "dur":4577, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1715893550968798, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":5, "ts":1715893550968802, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1715893550968841, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/app.info" }}
-,{ "pid":12345, "tid":5, "ts":1715893550968844, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1715893550968856, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":5, "ts":1715893550968906, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1715893550968920, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":5, "ts":1715893550968968, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1715893550969045, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1715893550969095, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1715893550969114, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1715893550969169, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1715893550969181, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1715893550969204, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1715893550969240, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1715893550969262, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1715893550969277, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1715893550969300, "dur":264, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1715893550969565, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1715893550969596, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1715893550969608, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":5, "ts":1715893550969625, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1715893550969635, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":5, "ts":1715893550969647, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1715893550969658, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":5, "ts":1715893550969678, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1715893550969689, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":5, "ts":1715893550969702, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1715893550969714, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":5, "ts":1715893550969781, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1715893550970374, "dur":2265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":5, "ts":1715893550972652, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":5, "ts":1715893550972755, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1715893550972782, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1715893550972842, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1715893550972850, "dur":1861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1715893550974732, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/level1" }}
-,{ "pid":12345, "tid":5, "ts":1715893550974756, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1715893550974766, "dur":922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/level1" }}
-,{ "pid":12345, "tid":5, "ts":1715893550975703, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/level0.resS" }}
-,{ "pid":12345, "tid":5, "ts":1715893550975722, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1715893550975729, "dur":2507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/level0.resS" }}
-,{ "pid":12345, "tid":5, "ts":1715893550978255, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":5, "ts":1715893550978319, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1715893550978326, "dur":3233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":5, "ts":1715893550981580, "dur":184892, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1715893550964396, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1715893550964397, "dur":4395, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1715893550968798, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":6, "ts":1715893550968873, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1715893550969031, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1715893550969091, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1715893550969105, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1715893550969142, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1715893550969162, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1715893550969178, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1715893550969193, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1715893550969250, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1715893550969264, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1715893550969279, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1715893550969293, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":6, "ts":1715893550969315, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1715893550969330, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1715893550969567, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1715893550969592, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":6, "ts":1715893550969606, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1715893550969627, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":6, "ts":1715893550969641, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1715893550969651, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":6, "ts":1715893550969664, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1715893550969676, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":6, "ts":1715893550969691, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1715893550969704, "dur":162347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":6, "ts":1715893551132058, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1715893551132087, "dur":748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":6, "ts":1715893551132863, "dur":33600, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1715893550964558, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1715893550964559, "dur":4244, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1715893550968804, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1715893550968887, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1715893550968903, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1715893550968951, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1715893550968964, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/websocket-sharp.dll" }}
-,{ "pid":12345, "tid":7, "ts":1715893550969041, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1715893550969092, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1715893550969123, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1715893550969165, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1715893550969179, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1715893550969203, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1715893550969229, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1715893550969243, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1715893550969266, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1715893550969283, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1715893550969333, "dur":232, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1715893550969565, "dur":58465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":7, "ts":1715893551028030, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1715893551028062, "dur":138403, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1715893550964637, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1715893550964638, "dur":4174, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1715893550968813, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":8, "ts":1715893550968893, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1715893550968912, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":8, "ts":1715893550968968, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1715893550969041, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1715893550969111, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1715893550969130, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1715893550969166, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1715893550969177, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1715893550969194, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1715893550969238, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1715893550969262, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1715893550969300, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1715893550969563, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1715893550969587, "dur":116184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":8, "ts":1715893551085772, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1715893551085805, "dur":80668, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1715893550964685, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1715893550964686, "dur":4136, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1715893550968823, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":9, "ts":1715893550968883, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1715893550968901, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":9, "ts":1715893550968951, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1715893550968965, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1715893550969096, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1715893550969112, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1715893550969139, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1715893550969154, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1715893550969169, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1715893550969195, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1715893550969228, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1715893550969242, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1715893550969256, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1715893550969342, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1715893550969502, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1715893550969559, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1715893550969584, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1715893550969595, "dur":89744, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":9, "ts":1715893551059340, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1715893551059370, "dur":107101, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1715893550964832, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1715893550964832, "dur":3974, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1715893550968806, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":10, "ts":1715893550968946, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1715893550968959, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":10, "ts":1715893550969001, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1715893550969011, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1715893550969037, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1715893550969077, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1715893550969132, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1715893550969158, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1715893550969175, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1715893550969188, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1715893550969207, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1715893550969239, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1715893550969260, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1715893550969299, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1715893550969567, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1715893550969592, "dur":83478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":10, "ts":1715893551053070, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1715893551053095, "dur":113379, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1715893550964969, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1715893550964969, "dur":3835, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1715893550968805, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":11, "ts":1715893550968874, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1715893550968917, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":11, "ts":1715893550968974, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1715893550969113, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1715893550969134, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1715893550969151, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1715893550969167, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1715893550969180, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1715893550969224, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1715893550969242, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1715893550969267, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1715893550969287, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1715893550969345, "dur":216, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1715893550969562, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1715893550969589, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1715893550969602, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":11, "ts":1715893550969617, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1715893550969629, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":11, "ts":1715893550969642, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1715893550969654, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":11, "ts":1715893550969672, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1715893550969684, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":11, "ts":1715893550969697, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1715893550969708, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":11, "ts":1715893550969761, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1715893550970003, "dur":2698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":11, "ts":1715893550972718, "dur":11375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":11, "ts":1715893550984094, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1715893550984122, "dur":182348, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1715893550965173, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1715893550965174, "dur":3616, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1715893550968798, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":12, "ts":1715893550968878, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1715893550968910, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":12, "ts":1715893550968956, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1715893550968972, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1715893550969088, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1715893550969098, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1715893550969114, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1715893550969131, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1715893550969166, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1715893550969178, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1715893550969197, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1715893550969260, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1715893550969276, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1715893550969290, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1715893550969332, "dur":231, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1715893550969564, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1715893550969587, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1715893550969600, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":12, "ts":1715893550969613, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1715893550969626, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":12, "ts":1715893550969640, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1715893550969650, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":12, "ts":1715893550969669, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1715893550969680, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":12, "ts":1715893550969693, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1715893550969706, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":12, "ts":1715893550969770, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1715893550970154, "dur":1861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":12, "ts":1715893550972036, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":12, "ts":1715893550972067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1715893550972075, "dur":6438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":12, "ts":1715893550978536, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":12, "ts":1715893550978554, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1715893550978559, "dur":602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":12, "ts":1715893550979174, "dur":187290, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1715893551169387, "dur":1154, "ph":"X", "name": "ProfilerWriteOutput" }
-,{ "pid": 0, "tid": 1, "ts": 1715893551187526, "dur": 389, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1715893551187317, "dur": 617, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+,{ "pid":12345, "tid":0, "ts":1715939039662981, "dur":19654, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715939039682641, "dur":448, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1715939039683112, "dur":19, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1715939039683132, "dur":1313, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1715939039684507, "dur":615, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715939039685122, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715939039960340, "dur":117, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715939039960457, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715939039960471, "dur":184, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715939039960655, "dur":54, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715939039960709, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715939039960714, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715939039960730, "dur":191, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715939039960921, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715939039960931, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715939039960934, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715939039960941, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715939039960943, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715939039960950, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715939039960952, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715939039960958, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715939039960961, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715939039960966, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715939039960968, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715939039960975, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715939039960977, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715939039960983, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715939039960985, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715939039960991, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715939039960993, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715939039961001, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715939039961012, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715939039961015, "dur":1446, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1715939039684585, "dur":549, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715939039685138, "dur":5898, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715939039691076, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1715939039691080, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715939039691107, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1715939039691108, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715939039691130, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1715939039691178, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715939039691255, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1715939039691457, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715939039691478, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715939039691494, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715939039691506, "dur":268733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715939039960239, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715939039960262, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1715939039960262, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715939039685095, "dur":79, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715939039685174, "dur":5916, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715939039691090, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1715939039691153, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715939039691182, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1715939039691225, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715939039691237, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715939039691423, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715939039691448, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715939039691468, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715939039691487, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715939039691508, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715939039691523, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715939039691541, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715939039691553, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715939039691573, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715939039691588, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715939039691603, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715939039691617, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715939039691636, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715939039691655, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715939039691669, "dur":186, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715939039691856, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715939039691882, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715939039691897, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715939039691914, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715939039691929, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715939039691944, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715939039691955, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715939039691974, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715939039691984, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715939039691993, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715939039692000, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715939039692009, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715939039692020, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1715939039692076, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715939039692489, "dur":1153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1715939039693658, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1715939039693679, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715939039693685, "dur":1720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1715939039695419, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1715939039695437, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715939039695442, "dur":670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1715939039696129, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1715939039696213, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715939039696225, "dur":264111, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715939039684745, "dur":402, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715939039685147, "dur":5894, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715939039691076, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1715939039691164, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715939039691191, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1715939039691226, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715939039691262, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1715939039691471, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715939039691491, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715939039691531, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715939039691544, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715939039691561, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715939039691575, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715939039691630, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715939039691664, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715939039691866, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715939039691889, "dur":217903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715939039909792, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715939039909815, "dur":50523, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715939039684935, "dur":225, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715939039685160, "dur":5914, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715939039691075, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1715939039691249, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715939039691272, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1715939039691388, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715939039691427, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1715939039691472, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715939039691504, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1715939039691528, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715939039691540, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1715939039691569, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715939039691582, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1715939039691597, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715939039691642, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1715939039691866, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715939039691902, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1715939039691921, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715939039691935, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1715939039691950, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715939039691961, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1715939039691975, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715939039691986, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1715939039691999, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715939039692012, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1715939039692082, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715939039692664, "dur":1159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1715939039693851, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1715939039693899, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715939039693909, "dur":1118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1715939039695051, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1715939039695070, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715939039695077, "dur":632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1715939039695723, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1715939039695743, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715939039695767, "dur":661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1715939039696442, "dur":263912, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715939039685185, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715939039685185, "dur":5908, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715939039691094, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1715939039691163, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715939039691189, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1715939039691267, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715939039691290, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715939039691457, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715939039691478, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715939039691496, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715939039691533, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715939039691563, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715939039691574, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715939039691588, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715939039691603, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715939039691624, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715939039691637, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715939039691667, "dur":195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715939039691863, "dur":59998, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715939039751862, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715939039751888, "dur":208446, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715939039685429, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715939039685429, "dur":5660, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715939039691089, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1715939039691159, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715939039691182, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1715939039691241, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715939039691284, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1715939039691381, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715939039691424, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1715939039691490, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715939039691603, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1715939039691624, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715939039691636, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1715939039691652, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715939039691670, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1715939039691892, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715939039691973, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1715939039691990, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715939039692002, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1715939039692016, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715939039692028, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1715939039692092, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715939039699679, "dur":4165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1715939039703861, "dur":256484, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715939039685584, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715939039685584, "dur":5498, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715939039691082, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1715939039691214, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715939039691226, "dur":291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715939039691517, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715939039691535, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715939039691557, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715939039691577, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715939039691595, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715939039691621, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715939039691639, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715939039691663, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715939039691805, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715939039691850, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715939039691869, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715939039691881, "dur":117232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715939039809114, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715939039809139, "dur":151205, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715939039685858, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715939039685859, "dur":5232, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715939039691092, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1715939039691230, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715939039691265, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/websocket-sharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1715939039691292, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715939039691385, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1715939039691434, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715939039691491, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1715939039691543, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715939039691556, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1715939039691575, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715939039691593, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1715939039691616, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715939039691629, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1715939039691813, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715939039691884, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1715939039691902, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715939039691922, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1715939039691943, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715939039691954, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1715939039691973, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715939039691984, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1715939039691992, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715939039692002, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1715939039692013, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715939039692023, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":8, "ts":1715939039692069, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715939039692309, "dur":1328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":8, "ts":1715939039693660, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1715939039693752, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715939039693767, "dur":2763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1715939039696530, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715939039696548, "dur":263784, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1715939039685702, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1715939039685702, "dur":5405, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1715939039691107, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1715939039691180, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1715939039691207, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1715939039691254, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1715939039691269, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1715939039691468, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1715939039691504, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1715939039691525, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1715939039691539, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1715939039691555, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1715939039691569, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1715939039691586, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1715939039691597, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1715939039691612, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1715939039691629, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1715939039691657, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1715939039691809, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1715939039691877, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1715939039691887, "dur":123420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1715939039815308, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1715939039815330, "dur":145011, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1715939039686043, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1715939039686044, "dur":5044, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1715939039691088, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1715939039691226, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1715939039691258, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game.exe" }}
+,{ "pid":12345, "tid":10, "ts":1715939039691276, "dur":152, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1715939039691430, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1715939039691480, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1715939039691492, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1715939039691553, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1715939039691571, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1715939039691588, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1715939039691601, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1715939039691618, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1715939039691633, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1715939039691659, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1715939039691670, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1715939039691886, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1715939039691902, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":10, "ts":1715939039691934, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1715939039691948, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":10, "ts":1715939039691962, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1715939039691974, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":10, "ts":1715939039691986, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1715939039691997, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":10, "ts":1715939039692009, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1715939039692019, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1715939039692087, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1715939039692865, "dur":1947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1715939039694834, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/resources.assets" }}
+,{ "pid":12345, "tid":10, "ts":1715939039694858, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1715939039694868, "dur":605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/resources.assets" }}
+,{ "pid":12345, "tid":10, "ts":1715939039695489, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/level0" }}
+,{ "pid":12345, "tid":10, "ts":1715939039695511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1715939039695518, "dur":583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/level0" }}
+,{ "pid":12345, "tid":10, "ts":1715939039696115, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1715939039696133, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1715939039696138, "dur":486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1715939039696637, "dur":263700, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1715939039686201, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1715939039686202, "dur":4892, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1715939039691094, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1715939039691171, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1715939039691191, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1715939039691235, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1715939039691252, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1715939039691350, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1715939039691382, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1715939039691424, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1715939039691477, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1715939039691499, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1715939039691518, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1715939039691540, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1715939039691551, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1715939039691567, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1715939039691578, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1715939039691615, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1715939039691646, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1715939039691660, "dur":190, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1715939039691851, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1715939039691906, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1715939039691934, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1715939039691951, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1715939039691961, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1715939039691973, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1715939039691983, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1715939039691997, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1715939039692008, "dur":148513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":11, "ts":1715939039840526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1715939039840548, "dur":453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":11, "ts":1715939039841011, "dur":119333, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1715939039686359, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1715939039686360, "dur":4721, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1715939039691081, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1715939039691232, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1715939039691272, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1715939039691450, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1715939039691467, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1715939039691495, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1715939039691515, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1715939039691537, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1715939039691550, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1715939039691566, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1715939039691578, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1715939039691593, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1715939039691622, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1715939039691647, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1715939039691659, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1715939039691807, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1715939039691851, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1715939039691869, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1715939039691880, "dur":147056, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/my-portfolio-multiplayer/simple-multiplayer-shooter/test/multiplayer game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":12, "ts":1715939039838937, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1715939039838965, "dur":121381, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715939039963430, "dur":1247, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1715939040082851, "dur": 385, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1715939040082647, "dur": 608, "ph": "X", "name": "Write chrome-trace events", "args": {} },

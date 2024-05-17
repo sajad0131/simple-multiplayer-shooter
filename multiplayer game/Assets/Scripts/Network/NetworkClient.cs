@@ -276,19 +276,23 @@ namespace Project.Networking
                         
                         NetworkIdentity ni = serverObjects[id];
                         ni.gameObject.GetComponent<PlayerManager>().muzzle.Play();
-                        var audioSource = GetComponent<PlayerManager>().gunAudioSource;
+                        var audioSource = ni.GetComponent<PlayerManager>().gunAudioSource;
                         var gunOrigin = ni.GetComponent<PlayerManager>().GunOrigin;
+                        var camera = ni.GetComponent<PlayerManager>().Camera;
                         AudioSource shootSource = Instantiate(audioSource, gunOrigin, gunOrigin);
+                        shootSource.Play();
+                        float maxDistance = ni.GetComponent<PlayerManager>().maxDistance;
                         RaycastHit hit;
-                        if (Physics.Raycast(gunOrigin.position, ni.GetComponent<PlayerManager>().Camera.forward, out hit, ni.GetComponent<PlayerManager>().maxDistance))
+                        if (Physics.Raycast(gunOrigin.position, camera.transform.forward, out hit, maxDistance))
                         {
+                            Debug.Log("hi");
                             if (hit.transform.tag != "Player")
                             {
                                 Instantiate(ni.gameObject.GetComponent<PlayerManager>().hitEffect,hit.transform);
                             }
                         }
 
-                        shootSource.Play();
+                        
 
 
 

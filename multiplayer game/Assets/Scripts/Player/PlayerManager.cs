@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using Project.Networking;
+using Unity.VisualScripting;
 
 namespace Project.Player
 {
@@ -36,8 +37,8 @@ namespace Project.Player
         [SerializeField]
         private float fireRate;
         public GameObject hitEffect;
-        
-        public float maxDistance{get; private set;}
+
+        public float maxDistance;
         public RaycastHit hit;
 
         public Transform GunOrigin { get; private set; }
@@ -138,11 +139,11 @@ namespace Project.Player
                 AudioSource shootSource = Instantiate(gunAudioSource,GunOrigin,GunOrigin);
                 shootSource.clip = shootSound;
                 shootSource.Play();
-                
+                CallSendShoot();
                 curentBullets--;
                 currentBulletText.text = curentBullets.ToString();
 
-                Vector3 hp = new Vector3();
+                
 
                 StartCoroutine("Flicker");
 
@@ -152,7 +153,7 @@ namespace Project.Player
                 if (Physics.Raycast(GunOrigin.position, Camera.transform.forward, out hit, maxDistance))
                 {
                     Debug.DrawRay(GunOrigin.position, Camera.transform.forward);
-                    hp = hit.point;
+                    
                     
                     if (hit.transform.tag == "Player")
                     {
@@ -164,7 +165,7 @@ namespace Project.Player
 
                 }
 
-                CallSendShoot();
+                
             }
             else
             {
