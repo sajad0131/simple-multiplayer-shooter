@@ -219,6 +219,7 @@ MonoBehaviour:
   fireRate: 10
   hitEffect: {fileID: 3632128046343316052, guid: 0224c6138b2fb0944a49dd4a1cd455bf, type: 3}
   maxDistance: 100
+  GunOrigin: {fileID: 7126029404459664968}
   muzzle: {fileID: 8954548305003210106}
   muzzleLight: {fileID: 8954548304988175388}
   hitID: 

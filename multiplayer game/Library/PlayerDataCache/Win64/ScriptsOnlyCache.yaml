@@ -192,8 +192,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 83
       Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -545,7 +543,7 @@ ScriptsOnlyBuild:
     className: UnityOnDropdownValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 124d6fd313b009c6e360bd5c5c85a250
+      Hash: a4d92089d52b963e02303016ff42e268
     assemblyName: Assembly-CSharp.dll
     namespaceName: Project.Player
     className: PlayerManager

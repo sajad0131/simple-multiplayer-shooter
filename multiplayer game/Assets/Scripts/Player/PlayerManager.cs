@@ -41,7 +41,7 @@ namespace Project.Player
         public float maxDistance;
         public RaycastHit hit;
 
-        public Transform GunOrigin { get; private set; }
+        public Transform GunOrigin;
         
         public ParticleSystem muzzle;
         [SerializeField]
@@ -161,6 +161,13 @@ namespace Project.Player
                         healthChecker++;
 
 
+                    }
+                    else
+                    {
+                        var hole = Instantiate(hitEffect);
+                        
+                        hole.transform.rotation = Quaternion.FromToRotation(Vector3.up, hit.normal);
+                        hole.transform.position = hit.point + hit.normal * 0.02f;
                     }
 
                 }

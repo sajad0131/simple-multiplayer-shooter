@@ -279,7 +279,8 @@ namespace Project.Networking
                         var audioSource = ni.GetComponent<PlayerManager>().gunAudioSource;
                         var gunOrigin = ni.GetComponent<PlayerManager>().GunOrigin;
                         var camera = ni.GetComponent<PlayerManager>().Camera;
-                        AudioSource shootSource = Instantiate(audioSource, gunOrigin, gunOrigin);
+                        AudioSource shootSource = Instantiate(audioSource);
+                        shootSource.transform.position = gunOrigin.position;
                         shootSource.Play();
                         float maxDistance = ni.GetComponent<PlayerManager>().maxDistance;
                         RaycastHit hit;
@@ -288,7 +289,10 @@ namespace Project.Networking
                             Debug.Log("hi");
                             if (hit.transform.tag != "Player")
                             {
-                                Instantiate(ni.gameObject.GetComponent<PlayerManager>().hitEffect,hit.transform);
+                                var hole = Instantiate(ni.gameObject.GetComponent<PlayerManager>().hitEffect);
+                                Debug.Log(hit.point);
+                                hole.transform.rotation = Quaternion.FromToRotation(Vector3.up,hit.normal);
+                                hole.transform.position = hit.point + hit.normal * 0.02f;
                             }
                         }
 
