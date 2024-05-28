@@ -18,6 +18,8 @@ TagManager:
   - SpawnContainer
   - GameUIManager
   - DebugText
+  - TPSVirtualCamera
+  - TpsCamera
   layers:
   - Default
   - TransparentFX

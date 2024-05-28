@@ -37,6 +37,7 @@ namespace Project.Player
         [SerializeField]
         private float fireRate;
         public GameObject hitEffect;
+        public GameObject impactDust;
 
         public float maxDistance;
         public RaycastHit hit;
@@ -59,18 +60,8 @@ namespace Project.Player
         public int healthChecker = 0;
         public int health;
 
-        //[ Aiming Variables ]
-        [SerializeField]
-        private float sensivity;
-        [SerializeField]
-        private float smoothing;
-        [SerializeField]
-        private float DownMouseLimit, UpMouseLimit;
-        [SerializeField]
-        private Rigidbody rb;
-        private Vector2 mouseLook;
-        private Vector2 smoothV;
-        private float lastRotation;
+
+
         [SerializeField]
         private float movingCameraHeight;
 
@@ -82,17 +73,18 @@ namespace Project.Player
         private int magBullets=30;
         public bool canShoot;
 
+        public Transform lookRoot;
         void Start()
         {
             canShoot = true;
             ni = gameObject.GetComponent<NetworkIdentity>();
-            rb = GetComponent<Rigidbody>();
+            
             
             currentBulletText = GameObject.FindGameObjectWithTag("CurrentBulletText").GetComponent<TextMeshProUGUI>();
             totalBulletText = GameObject.FindGameObjectWithTag("TotalBulletText").GetComponent<TextMeshProUGUI>();
             totalBulletText.text = totalBullets.ToString();
             currentBulletText.text = curentBullets.ToString();
-            sensivity =  PlayerPrefs.GetFloat("AimSensitivity");
+            
 
 
         }
@@ -102,9 +94,9 @@ namespace Project.Player
         {
             if (ni.IsControlling())
             {
-                Camera.gameObject.GetComponent<Camera>().enabled = true;
+                gameObject.GetComponent<CameraManager>().VirtualCamera(aimAxis,moveAxis);
+                Camera = GameObject.FindGameObjectWithTag("TpsCamera").transform;
                 checkShooting();
-                checkAiming();
                 checkMovement();
                 Reload();
             }
@@ -114,43 +106,20 @@ namespace Project.Player
             }
         }
 
-        private void checkAiming()
-        {
-            var md = new Vector2(aimAxis.x, aimAxis.y);
-            md = Vector2.Scale(md, new Vector2(sensivity * smoothing, sensivity * smoothing));
-            smoothV.x = Mathf.Lerp(smoothV.x, md.x, 1f / smoothing);
-            smoothV.y = Mathf.Lerp(smoothV.y, md.y, 1f / smoothing);
-            mouseLook += smoothV;
-            mouseLook.y = Mathf.Clamp(mouseLook.y, UpMouseLimit, DownMouseLimit);
-
-            lastRotation = mouseLook.x;
-            Camera.transform.localRotation = Quaternion.AngleAxis(-mouseLook.y, Vector3.right);
-
-            gameObject.transform.rotation = Quaternion.AngleAxis(mouseLook.x, transform.up);
-
-        }
 
         private void checkShooting()
         {
             if (shootButton && Time.time >= nextTimeToFire && curentBullets > 0 && canShoot == true  || secondShootButton && Time.time >= nextTimeToFire && curentBullets > 0 && canShoot == true)
             {
                 nextTimeToFire = Time.time + (1f / fireRate);
-                muzzle.Play(true);
-                AudioSource shootSource = Instantiate(gunAudioSource,GunOrigin,GunOrigin);
-                shootSource.clip = shootSound;
-                shootSource.Play();
+                ShootEffect();
                 CallSendShoot();
                 curentBullets--;
                 currentBulletText.text = curentBullets.ToString();
-
-                
-
-                StartCoroutine("Flicker");
-
                 
 
 
-                if (Physics.Raycast(GunOrigin.position, Camera.transform.forward, out hit, maxDistance))
+                if (Physics.Raycast(Camera.position, Camera.transform.forward, out hit, maxDistance))
                 {
                     Debug.DrawRay(GunOrigin.position, Camera.transform.forward);
                     
@@ -160,14 +129,10 @@ namespace Project.Player
                         hitID = hit.transform.GetComponent<NetworkIdentity>().GetID();
                         healthChecker++;
 
-
                     }
                     else
                     {
-                        var hole = Instantiate(hitEffect);
-                        
-                        hole.transform.rotation = Quaternion.FromToRotation(Vector3.up, hit.normal);
-                        hole.transform.position = hit.point + hit.normal * 0.02f;
+                        ShootEffect(hit);
                     }
 
                 }
@@ -179,6 +144,35 @@ namespace Project.Player
 
             }
         }
+
+        void ShootEffect(RaycastHit hit)
+        {
+            muzzle.Play(true);
+            AudioSource shootSource = Instantiate(gunAudioSource, GunOrigin, GunOrigin);
+            shootSource.clip = shootSound;
+            shootSource.Play();
+            StartCoroutine("Flicker");
+
+            var hole = Instantiate(hitEffect);
+            var dust = Instantiate(impactDust);
+            hole.transform.rotation = Quaternion.FromToRotation(Vector3.up, hit.normal);
+            hole.transform.position = hit.point + hit.normal * 0.002f;
+            dust.transform.rotation = Quaternion.FromToRotation(Vector3.up, hit.normal);
+            dust.transform.position = hit.point + hit.normal * 0.002f;
+
+        }
+        void ShootEffect()
+        {
+            muzzle.Play(true);
+            AudioSource shootSource = Instantiate(gunAudioSource, GunOrigin, GunOrigin);
+            shootSource.clip = shootSound;
+            shootSource.Play();
+            StartCoroutine("Flicker");
+            
+
+        }
+
+
 
         IEnumerator Flicker()
         {
@@ -197,7 +191,7 @@ namespace Project.Player
             if (vertical > 0.5 || horizontal > 0.5 || vertical < -0.5 || horizontal < -0.5)
             {
                 cameraMover();
-
+                
 
                 if (!run)
                 {

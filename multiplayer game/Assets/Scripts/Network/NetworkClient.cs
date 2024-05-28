@@ -166,6 +166,10 @@ namespace Project.Networking
                     
 
                     string id = data["id"].ToString();
+
+                    float x = (float)data["pos"]["x"];
+                    float y = (float)data["pos"]["y"];
+                    float z = (float)data["pos"]["z"];
                     _actions.Enqueue(() =>
                     {
 
@@ -178,6 +182,7 @@ namespace Project.Networking
                         
                         go.name = data["id"].ToString();
                         go.transform.SetParent(networkContainer.transform);
+                        go.transform.position = new Vector3(x, y, z);
                         NetworkIdentity ni = go.GetComponent<NetworkIdentity>();
                         ni.setControllerID(id);
                         ni.setWebSocket(ws);
@@ -222,12 +227,7 @@ namespace Project.Networking
                         float x = Mathf.Lerp(ni.transform.position.x, (float)data["position"]["x"], 100);
                         float y = Mathf.Lerp(ni.transform.position.y, (float)data["position"]["y"], 100);
                         float z = Mathf.Lerp(ni.transform.position.z, (float)data["position"]["z"], 100);
-                        //Debug.Log("id is : " + id + "position is : " + new Vector3(x, y, z));
-
-                        /*float x  = (float)data["position"]["x"];
-                        float y  = (float)data["position"]["y"];
-                        float z  = (float)data["position"]["z"];*/
-
+                        
                         ni.transform.position = new Vector3(x, y, z);
                     });
                     
@@ -241,9 +241,7 @@ namespace Project.Networking
                     {
                         string id = data["id"].ToString();
                         NetworkIdentity ni = serverObjects[id];
-                        //float x = Mathf.Lerp(ni.transform.rotation.x, (float)data["rotatoin"]["x"], 100);
-                        //float y = Mathf.Lerp(ni.transform.rotation.y, (float)data["rotatoin"]["y"], 100);
-                        //float z = Mathf.Lerp(ni.transform.rotation.z, (float)data["rotatoin"]["z"], 100);
+                        
 
                         float x = (float)data["rotation"]["x"];
                         float y = (float)data["rotation"]["y"];
@@ -278,7 +276,7 @@ namespace Project.Networking
                         ni.gameObject.GetComponent<PlayerManager>().muzzle.Play();
                         var audioSource = ni.GetComponent<PlayerManager>().gunAudioSource;
                         var gunOrigin = ni.GetComponent<PlayerManager>().GunOrigin;
-                        var camera = ni.GetComponent<PlayerManager>().Camera;
+                        var camera = GameObject.FindGameObjectWithTag("TpsCamera").transform;
                         AudioSource shootSource = Instantiate(audioSource);
                         shootSource.transform.position = gunOrigin.position;
                         shootSource.Play();
@@ -290,9 +288,12 @@ namespace Project.Networking
                             if (hit.transform.tag != "Player")
                             {
                                 var hole = Instantiate(ni.gameObject.GetComponent<PlayerManager>().hitEffect);
+                                var dust = Instantiate(ni.gameObject.GetComponent<PlayerManager>().impactDust);
                                 Debug.Log(hit.point);
                                 hole.transform.rotation = Quaternion.FromToRotation(Vector3.up,hit.normal);
-                                hole.transform.position = hit.point + hit.normal * 0.02f;
+                                hole.transform.position = hit.point + hit.normal * 0.002f;
+                                dust.transform.rotation = Quaternion.FromToRotation(Vector3.up, hit.normal);
+                                dust.transform.position = hit.point + hit.normal * 0.002f;
                             }
                         }
 
