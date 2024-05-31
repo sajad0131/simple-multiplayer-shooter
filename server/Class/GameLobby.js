@@ -123,8 +123,14 @@ module.exports = class GameLobby {
             connection.lobbyStatus = "PlayGame";
             let player = connection.player;
             let thisplayerID = connection.player.id;
-            ev.send(ws, 'spawn', player); // tell myself I have spawned
-            ev.lobbyBroadcast(ws, room.connections, 'spawn', player); //tell other players that I have spawned
+            let response = {
+                "id": player.id,
+                "team": player.team,
+                "pos": player.spawnPoint
+            }
+            ev.send(ws, 'spawn', response); // tell myself I have spawned
+            console.log("spawning players");
+            ev.lobbyBroadcast(ws, room.connections, 'spawn', response); //tell other players that I have spawned
 
             let players = connection.players;
 

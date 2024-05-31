@@ -13,7 +13,8 @@ module.exports = class TeamDeathMatch
         this.teamBPoint = 0;
         this.AConnections = new Array();
         this.BConnections = new Array();
-        
+        this.SpawnPointA = new Vector3(10,2,10);
+        this.SpawnPointB = new Vector3(-10,2,10);
         
         
     }
@@ -26,11 +27,13 @@ module.exports = class TeamDeathMatch
             const con = room.connections[index];
             if(index % 2 == 0){
                 con.player.team = "A";
+                con.player.spawnPoint = this.SpawnPointA;
                 this.AConnections.push(con);
                 console.log("the player with ID: " + con.player.id + " is in team: " + con.player.team);
             }else{
                 
                 con.player.team = "B";
+                con.player.spawnPoint = this.SpawnPointB;
                 this.BConnections.push(con);
                 console.log("the player with ID: " + con.player.id + " is in team: " + con.player.team);
             }

@@ -14,6 +14,7 @@ module.exports = class Player
         this.mode;
         this.map;
         this.killNumber =0;
+        this.spawnPoint = new Vector3();
         
     }
 

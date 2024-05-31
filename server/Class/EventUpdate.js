@@ -36,7 +36,7 @@ module.exports = class EventUpdate {
             player.rotation.x = parseFloat(data.rotation.x);
             player.rotation.y = parseFloat(data.rotation.y);
             player.rotation.z = parseFloat(data.rotation.z);
-            console.log(player);
+            
             ev.lobbyBroadcast(ws, this.room.connections, 'updateRotation', player);
         })
         ev.on('updateGunRotation', data, (data => {

@@ -170,12 +170,13 @@ namespace Project.Networking
                     float x = (float)data["pos"]["x"];
                     float y = (float)data["pos"]["y"];
                     float z = (float)data["pos"]["z"];
+                    Debug.Log(id + x.ToString() + y.ToString() + z.ToString());
                     _actions.Enqueue(() =>
                     {
 
 
                         //waitingScreen.SetActive(false);
-                        Debug.Log("spawning");
+                        Debug.Log("spawned");
 
                         networkContainer = GameObject.FindGameObjectWithTag("SpawnContainer");
                         GameObject go = GameObject.Instantiate(player);
